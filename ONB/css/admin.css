@@ -1,0 +1,209 @@
+.ap select{
+    background-color: rgba(242, 245, 237, 0.993);
+    border: 6px solid transparent;
+    appearance: none;
+    margin-right:60px; 
+    border-radius: 3px;
+    font-size: 100%;
+    color: rgb(3, 3, 3);
+}
+
+.ap{
+display: flex;
+justify-content: center;
+}
+
+
+
+.adtop
+{
+	width: 100%;
+	height: 50%;
+	background-color: #0680fa;
+	color: bisque;
+}
+/*admin page css*/
+
+.lleft a{
+    text-decoration: none;
+    font-family: Harrington;
+    font-weight: bold;
+}
+.tright a{
+    text-decoration: none;
+    color: coral;
+    text-shadow: 0px 0px 10px silver;
+}
+.tright
+{
+    text-decoration: none;
+    font-size: 125%;
+    margin-right: 2%;
+  
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height:50px;
+    width: 80px;
+    float: right;
+}
+.tcenter
+{
+	left:7%;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    width: 86.1%;
+    position: fixed;
+
+}
+.tcenter a{
+    color: rgba(250, 242, 242, 0.336);
+    text-decoration: none;
+    display: flex;
+    padding: 3%;
+}
+.tcenter a.act,.tcenter a:hover{
+    font-size: 200%;
+    color: rgb(251, 251, 255);
+    transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.tleft a{color: white;}
+.tleft
+{
+	position: fixed;
+    float: left;
+    background-color: brown;
+    height:50px;
+    width: 80px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 2%;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    font-size: 125%;
+    box-shadow: 0px 0px 10px black;
+    text-shadow: 0px 0px 8px silver;
+    
+}
+  /*-----send notification admin*/
+
+.senddiv
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+width: 500px;
+height: 500px;
+border-radius: 20px; 
+font-size: 20px;
+color:#0c0c0c;
+}
+.senddiv input[type=text]{
+margin-bottom: 18px;
+padding:15px;
+font-size: 103%;
+background-color:#f8f8f8 ;
+}
+.senddiv input[type=file]{
+    margin-bottom: 25px;
+    background-color: #f8f8f8;
+}
+.senddiv input[type=submit]{
+    margin: 25px 0;
+    padding: 20px;
+    width:100%;
+    font-size: 103%;
+    border-top-left-radius:20%; 
+    color: aliceblue;
+    background-color: rgba(90, 137, 236, 0.39);
+}
+.senddiv input[type=submit]:hover{
+    
+    background-color: rgba(11, 82, 236, 0.726);
+}
+.senddiv textarea{
+    width: 100%;
+    height: 150px;
+    padding:12px 20px;
+    box-sizing: border-box;
+    border:2px solid #ccc;
+    border-radius: 4px;
+    background-color:#f8f8f8;
+    resize: none; 
+}
+
+
+
+/*student home page*/
+
+.notic{
+    margin-top: 50px;
+    display: inline-block;
+    
+background-color:rgba(26, 24, 24, 0.637);
+width: 100%;
+height: 650px;
+}
+
+
+.prfleft{display: flex;background-image:url('code.jpg'); width: 50%;height: 834px; float: left; }
+.inprfleft
+{
+    display: flex;background-color: rgba(3, 3, 3, 0.74); width: 100%;height: 834px;align-items: center;justify-content: center;color: white;
+    
+}
+.prfright
+{
+ width: 50%;height: 783.5px;float: right;;
+}
+.move{width:75%;height: 780px;margin-left: 125px;    }
+div.mc{color:rgba(3, 3, 3, 0.74);padding: 10px;}
+.prfdetail{height:680px;}
+.prfdetail form{margin-top:30px;font-size: 20px;color:rgba(3, 3, 3, 0.589);font-weight: bolder;}
+.prfdetail input[type=text],.prfdetail input[type=number],.prfdetail input[type=password],.prfdetail input[type=file],.prfdetail input[type=email]{border-block-end-color: rgba(3, 3, 3, 0.74);padding: 10px;font-size: 20px;color:rgba(3, 3, 3, 0.589);}
+hr{margin-top: 15px;margin-bottom:20px;border-color:rgba(3, 3, 3, 0.336)  }
+.prfdetail input[type=submit] { padding: 20px;
+width:50%;
+font-size: 80%;
+font-weight: bold;
+border: none;
+color: white;
+background-color: rgb(12, 180, 12);}
+
+
+/*staff page css*/
+
+.foot{
+    position: fixed;
+background-color:rgba(73, 76, 233, 0.74);
+width: 100%;
+height: 80px;
+color:white;
+font-size: 150%;
+
+left:0;
+bottom: 0;
+}
+.date{
+    color: rgba(174, 170, 238, 0.719);
+    display: flex;
+    float: left;
+    font-size: 90%;
+}
+.content1{
+    display: inline-flex;
+    
+    text-align: center;
+    position: fixed;
+    left:36%;
+}
+.time{
+    color: rgba(174, 170, 238, 0.719);
+    display: flex;
+    float: right;
+    font-size: 90%;
+}
